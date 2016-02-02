@@ -7,7 +7,7 @@ namespace OneWeek.Models
 {
     public class Appointment
     {
-        public int EnrollmentID { get; set; }
+        public int AppointmentID { get; set; }
         public int StudentID { get; set; }
         public DateTime Date { get; set; }
         public string Text { get; set; }
