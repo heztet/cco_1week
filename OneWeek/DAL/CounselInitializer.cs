@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
+using OneWeek.Models;
 
 namespace OneWeek.DAL
 {
-    public class CounselInitializer : System.Data.Entity DropCreateDatabaseIfModelChanges<CounselContext>
+    public class CounselInitializer : System.Data.Entity. DropCreateDatabaseIfModelChanges<CounselContext> 
     {
         protected override void Seed(CounselContext context)
         {

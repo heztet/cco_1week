@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using OneWeek.Models;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace OneWeek.DAL
 {
-    public class CounselContext : DbContent
+    public class CounselContext : DbContext
     {
         public CounselContext() : base("CounselContext")
         {
