@@ -5,10 +5,9 @@ using System.Web;
 
 namespace OneWeek.Models
 {
-    public class Student
+    public class Counselor
     {
         public int ID { get; set; }
-        public string PurdueID { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
 
