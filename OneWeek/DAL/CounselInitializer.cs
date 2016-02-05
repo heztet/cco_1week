@@ -23,7 +23,7 @@ namespace OneWeek.DAL
             var appointments = new List<Appointment>
             {
                 new Appointment{StudentID=1,Date=DateTime.Parse("2015-03-02"),Text=""},
-                new Appointment{StudentID=1,Date=DateTime.Parse("2016-01-21"),Text=""}
+                new Appointment{StudentID=2,Date=DateTime.Parse("2016-01-21"),Text=""}
             };
 
             appointments.ForEach(s => context.Appointments.Add(s));
@@ -31,7 +31,8 @@ namespace OneWeek.DAL
 
             var counselors = new List<Counselor>
             {
-                new Counselor{FirstName="John",LastName="Purdue"}
+                new Counselor{FirstName="John",LastName="Purdue"},
+                new Counselor{FirstName="Johnny",LastName="Test"}
             };
 
             counselors.ForEach(s => context.Counselors.Add(s));
